@@ -1,0 +1,7 @@
+# Install on the Pi: pip install -r requirements-pi.txt
+gpiozero>=2.0
+lgpio>=0.2; sys_platform == "linux"
+smbus2>=0.4
+spidev>=3.6; sys_platform == "linux"
+pyserial>=3.5
+adafruit-blinka>=8.0
